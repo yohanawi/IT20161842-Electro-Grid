@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Bill Management</title>
+<link rel="stylesheet" href="Views/bootstrap.min.css">
+	<script src="Components/jquery-3.6.0.min.js"></script>
+</head>
+<body class="container-fluid card" style="width:40rem;">
+	<h2 class="bg-danger text-white text-center">Bill Registration</h2>
+	
+	<form action="register" method="post">
+    <table class="table table-hover">
+       <tr>
+        <td>Bill Amount</td>
+        <td><input type="text" name="billAmount" class="form-control"></td>
+       </tr>
+       <tr>
+        <td>Contact No</td>
+        <td><input type="text" name="contactNo" class="form-control"></td>
+       </tr>
+       <tr>
+        <td>User Email</td>
+        <td><input type="text" name="userEmail" class="form-control"></td>
+       </tr>
+       <tr> 
+        <td><input type="submit" value="Register" class="btn btn-success" ></td>
+        <td><input type="reset" value="Cancel" class="btn btn-secondary"></td>
+       </tr>
+    </table>
+    <a href='billList' class="btn btn-outline-primary">Bill List</a>
+</form>
+</body>
+</html>
